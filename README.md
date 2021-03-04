@@ -62,23 +62,23 @@ Realiza todas las pruebas de los Endpoints que encontraras en el archivo app.js,
 postman es la herramienta que te ayudara a testear la api y la base de datos.
 
 Usuarios :
-post/delilah/v1/users
-get/delilah/v1/users/login
-put/delilah/v1/users 
-get/delilah/v1/users/:username
-put/delilah/v1/users/:username
-delete/delilah/v1/users
+1. post/delilah/v1/users
+2. get/delilah/v1/users/login
+3. put/delilah/v1/users 
+4. get/delilah/v1/users/:username
+5. put/delilah/v1/users/:username
+6. delete/delilah/v1/users
 
 Pedidos : 
-get/delilah/v1/orders
-post/delilah/v1/orders
-get/delilah/v1/orders/:id
-put/delilah/v1/orders/:id
-delete/delilah/v1/orders/:id
+1. get/delilah/v1/orders
+2. post/delilah/v1/orders
+3. get/delilah/v1/orders/:id
+4. put/delilah/v1/orders/:id
+5. delete/delilah/v1/orders/:id
 
 productos : 
-get/delilah/v1/products
-post/delilah/v1/products
-get/delilah/v1/products/:id
-put/delilah/v1/products/:id
-delete/delilah/v1/products/:id
+1. get/delilah/v1/products
+2. post/delilah/v1/products
+3. get/delilah/v1/products/:id
+4. put/delilah/v1/products/:id
+5. delete/delilah/v1/products/:id
