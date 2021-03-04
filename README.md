@@ -4,23 +4,23 @@ Creacion de una API para la toma de pedidos en un restaurante. Proyecto Backend.
 
 Herramientas utilizadas en la elaboración del proyecto:
 
-Node JS
-MySQL
-Xampp
-Postman
-Swagger
+. Node JS
+. MySQL
+. Xampp
+. Postman
+. Swagger
 
 Librerias utilizadas:
 
-Node
-Nodemon
-Express
-JsonWebToken
-Body-parser
-Mariadb
-Mysql2
-Sequalize
-Helmet
+. Node
+. Nodemon
+. Express
+. JsonWebToken
+. Body-parser
+. Mariadb
+. Mysql2
+. Sequalize
+. Helmet
 
 
 Ejecución del proyecto: 
@@ -31,15 +31,15 @@ Ejecución del proyecto:
 
 Descarga e instala las dependencias :
 
-Node
-Nodemon
-Express
-JsonWebToken
-Body-parser
-Mariadb
-Mysql2
-Sequalize
-Helmet
+. Node
+. Nodemon
+. Express
+. JsonWebToken
+. Body-parser
+. Mariadb
+. Mysql2
+. Sequalize
+. Helmet
 
 3. Creación e inicialización de la base de datos :
 
