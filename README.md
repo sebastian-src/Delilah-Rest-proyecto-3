@@ -1,49 +1,84 @@
-Delilah_Resto
+Proyecto 3 Acamica Delilah Restó
 Creacion de una API para la toma de pedidos en un restaurante. Proyecto Backend.
 
-Se utilizaron las siguientes tecnologias:
-Javascript
-nodeJs
+
+Herramientas utilizadas en la elaboración del proyecto:
+
+Node JS
 MySQL
+Xampp
+Postman
+Swagger
+
+Librerias utilizadas:
+
+Node
+Nodemon
 Express
+JsonWebToken
+Body-parser
+Mariadb
+Mysql2
+Sequalize
+Helmet
 
-Para iniciar el servidor: 
-1. Instalar la dependencia "express" (npm install express); 
-2. Dentro del archivo "api.js" se puede ver que el puerto que se esta utilizando es 3001, si desea puede cambiarlo.
+
+Ejecución del proyecto: 
+
+1. Clonar repositorio o descargar 
+
+2. Instalación de dependencias
+
+Descarga e instala las dependencias :
+
+Node
+Nodemon
+Express
+JsonWebToken
+Body-parser
+Mariadb
+Mysql2
+Sequalize
+Helmet
+
+3. Creación e inicialización de la base de datos :
+
+Descargar [XAMPP](https://www.apachefriends.org/es/download.html "XAMPP").
+- Iniciar los servicios de Apache y MySQL.
+- Crear base de datos con el siguiente nombre:
+`delila_resto`
+- Una vez creada la base de datos se importara un archivo con extensión .sql el cual tendrá queries base para la prueba del proyecto.
 
 
-En esta API se utilizan las siguientes dependencias que deberá instalar: 
-1. body-parser 
-2. cors 
-3. sequelize 
-4. jsonwebtoken 
-5. MySQL2
+4. Inicializar el servidor :
 
-P.D : Todas las dependencias estan en "package.json"
+Abrir el archivo app.js con un editor de código y ejecutar el siguiente comando:
 
-BASE DE DATOS:
-Una vez instalada la dependencia, en el archivo "bd.sql" se puede encontrar todo lo necesario para inicializar la base de datos. Usar PhpMyAdmin.
+`node app.js`
 
-RESPONSE:
-Toda las respuestas serán un objeto json.
+5. Prueba los endpoints o rutas :
 
-ENDPOINTS:
-Se muestra una coleccion de API Postman, en donde se puede muestra como interactuar con la API  A clientes:
-1. post/clientes/register 
-2. post/clientes/login 
-3. get/clientes 
-4. put/clientes 
-5. delete/clientes/:id
+Realiza todas las pruebas de los Endpoints que encontraras en el archivo app.js,
+postman es la herramienta que te ayudara a testear la api y la base de datos.
 
-A productos: 
-1. post/productos/create 
-2. get/productos 
-3. put/productos/:id 
-4. delete/productos/:id
+Usuarios :
+post/delilah/v1/users
+get/delilah/v1/users/login
+put/delilah/v1/users 
+get/delilah/v1/users/:username
+put/delilah/v1/users/:username
+delete/delilah/v1/users
 
-A Pedidos 
-1. post/pedidos 
-2. get/pedidos 
-3. get/pedidos/:id 
-4. put/pedidos/:id 
-5. delete/pedidos/:id
+Pedidos : 
+get/delilah/v1/orders
+post/delilah/v1/orders
+get/delilah/v1/orders/:id
+put/delilah/v1/orders/:id
+delete/delilah/v1/orders/:id
+
+productos : 
+get/delilah/v1/products
+post/delilah/v1/products
+get/delilah/v1/products/:id
+put/delilah/v1/products/:id
+delete/delilah/v1/products/:id
